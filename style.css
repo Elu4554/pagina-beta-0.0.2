@@ -1,0 +1,86 @@
+/* General Styles */
+
+.imgDPCL {
+    width: 200px;
+    height: auto;
+}
+
+body {
+    font-family: "Heebo", sans-serif;
+    background-color: #ebccee;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(176, 129, 219);
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Cont {
+    display: flex;
+    text-align: center;
+    align-items: flex-start; /* Alinea los elementos al principio del contenedor */
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;            /* El contenedor ocupará el 80% del ancho disponible */
+    max-width: 1200px;     /* Limita el ancho máximo del contenedor */
+    min-width: 300px;      /* Limita el ancho mínimo del contenedor */
+    margin-top: 100px;
+    box-sizing: border-box; /* Incluye el padding y el border en el cálculo del ancho total */
+}
+
+
+.Titulo {
+    
+    font-weight: bold;
+    margin-top: 60px;
+    text-align: center;
+    width: 70%;
+    font-size: 24px;
+}
+
+.Text {
+    
+    width: 70%;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.imagen1 {
+    margin-left: 20px;
+    display: flex; /* Usa flex para controlar la alineación */
+    align-items: flex-start; /* Alinea la imagen con el texto */
+}
+
+#link {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-top: 50px;
+    width: 100%;  /* Asegura que el contenedor ocupe todo el ancho disponible */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+
+#link img {
+    max-width: 100%; /* La imagen no debe superar el ancho del contenedor */
+    height: auto;    /* La altura se ajustará automáticamente para mantener la proporción */
+}

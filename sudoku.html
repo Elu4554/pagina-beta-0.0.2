@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="sudoku.css">
+    <script src="sudoku.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+
+    <nav> 
+        <h1 class = "logo"><a href="nav"><img class = "imgDPCL" src="Imagotipo DPCL (1).png" alt="DPCL"></a></h1>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="actividades.html">ACTIVIDADES</a></li>
+            <li><a href="info.html">INFORMACION</a></li>
+            <li><a href="comentarios.html">COMENTARIOS</a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <h1>Sudoku</h1>
+    <hr>
+    <h2 id="errors">Errores: 0</h2>
+    <h2 id="timer">Tiempo: 0 segundos</h2>
+
+    <div id="board"></div>
+    <br>
+    <div id="digits"></div>
+
+    <button id="check">Verificar Sudoku</button>
+
+    <div id="leaderboard">
+        <h3>Mejores Tiempos</h3>
+        <ul id="times-list"></ul>
+    </div>
+</body>
+</html>
